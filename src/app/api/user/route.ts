@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { db } from "@/lib/db";
-import { hash } from "bcrypt";
+import { hash } from "bcryptjs";
 import * as z from "zod";
 
 //Define schema for input validation
